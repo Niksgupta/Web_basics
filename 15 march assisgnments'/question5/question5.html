@@ -1,0 +1,69 @@
+<!-- 5) Create a Student registration form 
+Name
+Roll no
+Userid
+password    
+class - 7 to 10th - list 
+gender - radio
+branch
+email
+Upload photo -- file select control
+Core Subjects preference - checkbox
+Physically abled - radio 
+date - date type
+Use auto focus, placeholder, required 
+Provide neccessary buttons -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form>
+    Name: <input type="text" name="usernametxt"/><br>
+    Roll no: <input type="number" name="userrollno"/><br>
+
+    UserId : <input type="text" name="useridtxt" />
+    <br><br>
+
+    Password : <input type="password" name="pwdtxt" />
+   <br><br>
+Gender :
+    <input type="radio" name="genderradio" value="male"  /> Male
+    <input type="radio" name="genderradio" value="female"  /> Female
+<br><br>
+
+ 
+
+Comments : <textarea rows="10" cols="10" name="commentstxt" > 
+</textarea>
+<br><br>
+
+ 
+
+Hobby:
+<br><br>
+    Cricket <input type="checkbox" name="choicetchk" value="cricket"/> 
+    Books <input type="checkbox" name="choicetchk1"value="books"/> 
+<br><br>
+Gender :
+    <input type="radio" name="genderradio" value="male"  /> Male
+    <input type="radio" name="genderradio" value="female"  /> Female
+<br><br>
+
+ 
+
+Qualification :
+<select name="qualselect " >
+    <option value="BE"  >BE </option>
+    <option value=" MCA" selected > MCA</option>
+    <option value=" MS"  > MS</option>
+    <option value=" ME"  > ME </option>
+    <option value=" BCA"  > BCA</option>
+</select>
+<br><br>
+Click to upload <input type="file" name="fileuplodctrl"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+table,tr,td{
+border: 1px solid black;
+background-color: lightblue;
+</style>
+<title></title>
+</head>
+
+<body>
+	<center>
+<h1>Candidate Information</h1>
+<form>
+<table>
+<tbody>
+
+<tr>
+<td>Name: <sup style="color: red">*</sup></td>
+<td><input type="text" id="name" maxlength="15"></td>
+</tr>
+
+<tr><td>Password: <sup  style="color: red">*</sup></td>
+<td><input type="password" id="pass" maxlength="15"></td>
+</tr>
+
+<tr><td>Phone number: <sup  style="color: red">*</sup></td>
+<td><input type="tel" id="phone" maxlength="10"></td>
+</tr>
+
+<tr><td>Gender: <sup  style="color: red">*</sup></td>
+<td><input type="radio" id="male" value="male">Male
+<input type="radio" id="female" value="female">Female</td>
+</tr>
+
+<tr><td>Date of Birth: <sup  style="color: red">*</sup></td>
+<td><input type="date" id="date"></td>
+</tr>
+
+<tr><td>Eamil: <sup  style="color: red">*</sup></td>
+<td><input type="text" id="mail"></td>
+</tr>
+
+<tr><td>Highest Qualification: <sup  style="color: red">*</sup></td>
+<td><select id="qualification">
+<option>Select Highest Qualification</option>
+<option>B.Tech</option>
+<option>M.Tech</option>
+<option>MBA</option>
+<option>MCA</option>
+<option>MSc</option>
+<option>MA</option>
+<option>BSC</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Cources Interested in: <sup  style="color: red">*</sup></td>
+<td>
+<input type="checkbox" value="Java">Java
+<input type="checkbox" value="HTML5">HTML5
+<input type="checkbox" value="CSS3">CSS3
+<input type="checkbox" value="Angular JS">Angular JS
+<input type="checkbox" value="JQuery">JQuery
+</td>
+</tr>
+
+<tr><td>Commments: (Mention External Certificate if any)</td>
+<td><textarea rows="3"></textarea></td>
+</tr>
+
+<tr><td>Upload Degree / External Certificate: <sup  style="color: red">*</sup></td>
+<td><input type="file" id="file"></td>
+</tr>
+
+<tr><td></td>
+<td><Button type="Submit">Submit Information
+<Button type="reset">Clear
+</td>
+</tr>
+
+</tbody>
+</table>
+</form>
+
+<p style="color:red;">All fields marked(*) are mandatory</p>
+</center>
+</body>
+</html>
